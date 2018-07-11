@@ -1,0 +1,25 @@
+<center> 
+   
+    <form method = 'post' style="margin: 1 auto; width: 500px; padding: 2em; border: 1px solid #ffffff; border-radius: 1em; background: #318522">
+        <font face="arial" style="color: #ffffff;"> Selecione o evento </font><br />
+        <select name='idEvento'> 
+            <option value=" "><font face="arial" style="color: #ffffff;">  EVENTO TESTE </font></option>
+            <option value=" "> <font face="arial" style="color: #ffffff;"> EVENTO TESTE 2 </font></option>
+        </select>   
+        <br />
+        <br />  
+        <font face="arial" style="color: #ffffff;"> Ou digite seu Nome e CPF e clique em pesquisar </font><br />
+        <div>
+            <label for="nomePessoa"><font face="arial" style="color: #ffffff;"> Nome: </font></label>
+            <input type="text" id=" " />
+
+            <label for= "cpfPessoa"><font face="arial" style="color: #ffffff;"> Cpf: </font></label>
+            <input type="text" maxlength="11" onkeypress="formatar('###.###.###-##', this)" id=" " />
+        
+        </div>
+        <br />
+        <div class="button">
+            <button type="submit">Pesquisar</button>
+        </div>
+    </form>
+</center>

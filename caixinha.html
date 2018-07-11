@@ -1,0 +1,25 @@
+<center> 
+   
+    <form method = 'post' style="margin: 1 auto; width: 500px; padding: 2em; border: 1px solid #56ff0ee0; border-radius: 1em; background: #f3f3f3">
+        Selecione o evento<br />
+        <select name='idEvento'> 
+            <option value=" "> EVENTO TESTE</option>
+            <option value=" "> EVENTO TESTE 2</option>
+        </select>   
+        <br />
+        <br />  
+        Ou digite seu Nome e CPF e clique em pesquisar<br />
+        <div>
+            <label for="nomePessoa">Nome:</label>
+            <input type="text" id=" " />
+
+            <label for= "cpfPessoa"> Cpf:</label>
+            <input type="text" maxlength="11" onkeypress="formatar('###.###.###-##', this)" id=" " />
+        
+        </div>
+        <br />
+        <div class="button">
+            <button type="submit">Pesquisar</button>
+        </div>
+    </form>
+</center>
